@@ -6,16 +6,15 @@
 }
 
 #sidebar{
-  padding: 15px 0;
-  background-color: #000;
+  position: fixed;
 }
 #sidebar-container{
-  position: fixed;
+  
   display: block;
   background-color: red;
+  height: 100%;
   width: 20%;
   right: 0%;
-  height: 100%;
 }
 #sidebar-container li a{
 	list-style-type: none;
@@ -23,8 +22,8 @@
 	padding: 0;
 	color: #fff;
 	text-decoration: none;
+	padding: 15px 0;
 }
-
 #onpage{
 
 }
