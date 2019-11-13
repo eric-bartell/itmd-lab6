@@ -1,22 +1,17 @@
 #main-navbar{
   background-color: blue;
   overflow: hidden;
-  float: left;
-  display: block;
-}
-#navbar-container{
-  float: left;
   width: 100%;
   position: relative;
-  left: 50%;
-  right: 50%;
-  display: block;
-  padding: 10px 20px;
 }
-#navbar-container ul{
+#navbar-container{
   list-style-type: none;
   margin: 0;
+
+}
+#navbar-container ul{
   padding: 0;
+  position: relative;	
   vertical-align: top;
   color: #fff;
   text-decoration: none;
