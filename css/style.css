@@ -8,6 +8,7 @@
   position: relative;
   display: block;
   float: left;
+  right: 50%;
 }
 #main-navbar ul{
   margin: 0;
@@ -39,6 +40,10 @@
   display: block;
   position: fixed;
   background-color: red;
+}
+#sidebar ul li{
+  list-style-type: none;
+  text-decoration: none;
 }
 #sidebar ul li a{
   list-style-type: none;
