@@ -19,24 +19,26 @@
 }
 #main-navbar ul li{
   float: left;
+  left: 50%;
+  right: 50%;
 }
 #main-navbar ul li a{
   display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  left: 50%;
-  right: 50%;
 }
 #sidebar{
   background-color: red;
   height: 100%;
   width: 20%;
   right: 0%;
+  position: fixed;
 }
 #sidebar-container{
-  position: fixed;
   display: block;
+  position: fixed;
+  background-color: red;
 }
 #sidebar ul li a{
   list-style-type: none;
