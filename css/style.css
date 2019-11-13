@@ -13,7 +13,7 @@
   display: block;
   padding: 10px 20px;
 }
-#main-navbar ul{
+#navbar-container ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
