@@ -1,1 +1,1 @@
-# itmd361-lab6
+# This is Lab 6 for my ITMD-361 class
