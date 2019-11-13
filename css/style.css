@@ -6,17 +6,18 @@
 }
 
 #sidebar{
-  width: 20%;
-  right: 0%;
-  height: 100%;
   padding: 15px 0;
+  background-color: #000;
 }
 #sidebar-container{
   position: fixed;
   display: block;
-  background-color: #000;
+  background-color: red;
+  width: 20%;
+  right: 0%;
+  height: 100%;
 }
-#sidebar li{
+#sidebar-container li a{
 	list-style-type: none;
 	text-align: center;
 	padding: 0;
