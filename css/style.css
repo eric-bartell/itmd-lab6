@@ -8,7 +8,6 @@
   position: relative;
   display: block;
   float: left;
-  left: 50%;
 }
 #main-navbar ul{
   margin: 0;
@@ -26,23 +25,23 @@
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
+  left: 50%;
+  right: 50%;
 }
-
 #sidebar{
   background-color: red;
-}
-#sidebar-container{
   height: 100%;
-  position: fixed;
-  display: block;
   width: 20%;
   right: 0%;
-  
 }
-#sidebar-container ul{
+#sidebar-container{
+  position: fixed;
+  display: block;
+}
+#sidebar ul li a{
   list-style-type: none;
   text-align: center;
-  padding: 0;
+  display: block;
   color: #fff;
   text-decoration: none;
   padding: 15px 0;
